@@ -15,8 +15,8 @@ GPIO.setup(FAN_PIN, GPIO.IN)
 GPIO.setup(COOL_PIN, GPIO.IN)
 
 # Setup WeMo switches
-WEMO_SERIAL_FAN = "os.environ['FAN_SERIAL_NUMBER']"
-WEMO_SERIAL_COOL = "os.environ['COOL_SERIAL_NUMBER']"
+WEMO_SERIAL_FAN = os.environ['FAN_SERIAL_NUMBER']
+WEMO_SERIAL_COOL = os.environ['COOL_SERIAL_NUMBER']
 WEMO_FAN = None
 WEMO_COOL = None
 
