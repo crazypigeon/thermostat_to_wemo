@@ -1,3 +1,4 @@
 run.sh
 venv
 .DS_store
+.idea
