@@ -4,7 +4,7 @@
 
 I live in an apartment and not only do I have a crappy wall air conditioner, I have a crappy wall air conditioner with a manual thermostat that blows cold air only into the kitchen.
 
-The heater has a seperate programmable thermostat that is across the room that I wanted to hook in to control the heat and AC.m
+My heater has a seperate programmable thermostat that is across the room that I wanted to hook it up so that it to controls the heat and AC.
 
 Diving into the installation guide for my thermostat, I was able to figure out how to hook it up to the GPIO pins on a Raspberry Pi so that the Pi could determine when the thermostat was asking for fan or AC, or both.
 
@@ -18,4 +18,4 @@ The script finds all WeMos on the local network, and then chooses the fan and AC
 
 A really rough schematic is in schematic.png.  Raspberry Pi pins are on the right, Thermostat pins on the left. The resistors are 10k.
 
-I have a picture of my setup (at least until I prettify) in setup.jpg. I have a Raspberry Pi, protoboard and [TP Link TL-WR702N](http://www.amazon.com/TP-LINK-TL-WR702N-Wireless-Repeater-150Mbps/dp/B007PTCFFW?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) router (which is acting in client mode) running off of a light bulb outlet right next to the thermostat.
+I have a picture of my setup (at least until I prettify) in the pictures folder. I have a Raspberry Pi, protoboard and [TP Link TL-WR702N](http://www.amazon.com/TP-LINK-TL-WR702N-Wireless-Repeater-150Mbps/dp/B007PTCFFW?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) router (which is acting in client mode) running off of a light bulb outlet right next to the thermostat.
