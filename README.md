@@ -16,6 +16,22 @@ This script convert signals from the Raspberry PI GPIO pins from my thermostat i
 
 The script finds all WeMos on the local network, and then chooses the fan and AC Wemos based on serial numbers in your environmental variables (see setup\_template.sh).
 
-A really rough schematic is in schematic.png.  Raspberry Pi pins are on the right, Thermostat pins on the left. The resistors are 10k.
+I have a picture of my setup in the pictures folder. I have a Raspberry Pi, protoboard and [TP Link TL-WR702N](http://www.amazon.com/TP-LINK-TL-WR702N-Wireless-Repeater-150Mbps/dp/B007PTCFFW?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) router (which is acting in client mode) running off of a light bulb outlet right next to the thermostat.
 
-I have a picture of my setup (at least until I prettify) in the pictures folder. I have a Raspberry Pi, protoboard and [TP Link TL-WR702N](http://www.amazon.com/TP-LINK-TL-WR702N-Wireless-Repeater-150Mbps/dp/B007PTCFFW?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) router (which is acting in client mode) running off of a light bulb outlet right next to the thermostat.
+Here is a really rough schematic:
+![Schematic](schematic.jpg)
+
+
+## Pictures
+
+Hooked up:
+![Thermostat](pictures/thermostat.jpg)
+
+Hidden:
+![Covered Thermostat](pictures/installed.jpg)
+
+Fan:
+![Fan](pictures/fan.jpg)
+
+AC Unit:
+![AC Unit](pictures/air_conditioner.jpg)
