@@ -16,6 +16,7 @@ for device in pywemo.discover_devices():
     elif device.serialnumber == WEMO_SERIAL_COOL:
       WEMO_COOL = device
 
+# TODO: Set the wemo switch status on MQTT on startup
 
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
@@ -36,7 +37,6 @@ def on_message(client, userdata, msg):
 
       print('setting ' + topic_to_update + ' to ' + msg.payload)
 
-      # do stuff
       # TODO: Make more generic
       device=None
 
